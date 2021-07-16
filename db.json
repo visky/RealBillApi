@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "email": "landlord@default.com",
+      "role": 1,
+      "password": "Password1"
+    },
+    {
+      "id": 1,
+      "email": "tenant@default.com",
+      "role": 2,
+      "password": "Password2"
+    },
+    {
+      "firstName": "Visky",
+      "lastName": "Tamas",
+      "email": "visky@yahoo.com",
+      "role": "1",
+      "id": 2
+    }
+  ],
+  "version": {
+    "api": "1.0.0"
+  }
+}

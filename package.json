@@ -1,0 +1,14 @@
+{
+  "name": "reallbillapi",
+  "version": "1.0.0",
+  "description": "API for the RealBill React Web app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "visky",
+  "license": "",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
