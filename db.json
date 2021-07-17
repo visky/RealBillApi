@@ -1,23 +1,30 @@
 {
   "users": [
     {
-      "id": 0,
-      "email": "landlord@default.com",
-      "role": 1,
-      "password": "Password1"
-    },
-    {
-      "id": 1,
-      "email": "tenant@default.com",
-      "role": 2,
-      "password": "Password2"
-    },
-    {
+      "email": "visky@yahoo.com",
+      "password": "$2a$10$SiN2rxjfeJKHrjTTlqSJE.5WwoaOwuFJ4tqZYJ4/B9l7P4EpVtCRy",
       "firstName": "Visky",
       "lastName": "Tamas",
-      "email": "visky@yahoo.com",
       "role": "1",
-      "id": 2
+      "id": 1
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "userId": 1,
+      "addressLine1": "Fabricii 68",
+      "addressLine2": "ap 19, et 6",
+      "city": "Cluj Napoca",
+      "zipCode": "455100"
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "addressLine1": "Eroilor 2",
+      "addressLine2": "ap 2",
+      "city": "Cluj Napoca",
+      "zipCode": "400100"
     }
   ],
   "version": {

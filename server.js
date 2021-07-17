@@ -1,11 +1,24 @@
+// Imports
 const jsonServer = require('json-server')
-const server = jsonServer.create()
-const router = jsonServer.router('db.json')
-const middlewares = jsonServer.defaults()
-const port = 3003
+const auth = require('json-server-auth')
 
-server.use(middlewares)
-server.use(router)
-server.listen(port, () => {
-  console.log(`BilleyApi is running on ${port}`)
+// Settings
+const port = 3003
+const database = 'db.json'
+
+// Creation
+const app = jsonServer.create()
+const router = jsonServer.router(database)
+const middlewares = [jsonServer.defaults(), auth]
+
+// Binding the router db to the app (This is needed for `auth` to work)
+app.db = router.db
+
+// We must apply the (auth) middleware before the router
+app.use(middlewares)
+app.use(router)
+
+// Starting the server
+app.listen(port, () => {
+  console.log(`RealBillApi is running on ${port}`)
 })

@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "mikerich@yahoo.com",
+      "role": 1,
+      "firstName": "Mike",
+      "lastName": "Rich",
+      "password": "Password1",
+      "phoneNumber": "0705-831-729"
+    },
+    {
+      "id": 2,
+      "email": "paul_l@yahoo.com",
+      "role": 2,
+      "firstName": "Paul",
+      "lastName": "Longlive",
+      "password": "Password1",
+      "phoneNumber": "0766-112-580"
+    },
+    {
+      "id": 3,
+      "email": "levi@yahoo.com",
+      "role": 1,
+      "firstName": "Levy",
+      "lastName": "Moon",
+      "password": "Password1",
+      "phoneNumber": "0756-312-110"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "userId": 1,
+      "addressLine1": "Fabricii 68",
+      "addressLine2": "ap 19, et 6",
+      "city": "Cluj Napoca",
+      "zipCode": "455100"
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "addressLine1": "Eroilor 2",
+      "addressLine2": "ap 2",
+      "city": "Cluj Napoca",
+      "zipCode": "400100"
+    }
+  ],
+  "version": {
+    "api": "1.0.0"
+  }
+}
